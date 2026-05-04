@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -20,6 +20,7 @@ export default function LoginPage() {
     const [error, setError] = useState("");
     const router = useRouter();
     const [loading, setLoading] = useState(false);
+    const [demoUsers, setDemoUsers] = useState<any[]>([]);
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -72,6 +73,21 @@ export default function LoginPage() {
             setLoading(false);
         }
     };
+
+    useEffect(() => {
+        // Load demo users from public mocks to show note on login page
+        async function loadDemo() {
+            try {
+                const res = await fetch('/mocks/UserAccounts.json');
+                if (!res.ok) return;
+                const data = await res.json();
+                setDemoUsers(data || []);
+            } catch (e) {
+                // ignore
+            }
+        }
+        loadDemo();
+    }, []);
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 flex">
@@ -220,6 +236,24 @@ export default function LoginPage() {
                                 <span className="mx-4 text-sm text-gray-400 bg-white px-2">hoặc</span>
                                 <div className="border-t border-gray-300 w-full" />
                             </div>
+
+                            {/* Demo accounts note */}
+                            {demoUsers.length > 0 && (
+                                <div className="mb-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
+                                    <h4 className="text-sm font-semibold text-yellow-700 mb-2">Tài khoản mẫu (dùng để demo)</h4>
+                                    <ul className="text-sm text-gray-700 space-y-1">
+                                        {demoUsers.map((u) => (
+                                            <li key={u.email} className="flex justify-between items-center">
+                                                <div>
+                                                    <span className="font-medium">{u.roleName}</span>
+                                                    <span className="ml-2 text-gray-600">— {u.email}</span>
+                                                </div>
+                                                <div className="text-sm text-gray-500">pw: <span className="font-mono">{u.password ?? 'any'}</span></div>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            )}
 
                             {/* Google Login */}
                             <Button

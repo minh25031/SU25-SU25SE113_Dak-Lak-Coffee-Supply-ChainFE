@@ -1,0 +1,127 @@
+[
+  {
+    "shipmentId": "ship-001",
+    "shipmentCode": "SHIP-2025-001",
+    "orderId": "ord-001",
+    "orderCode": "ORD-2025-001",
+    "deliveryStaffId": "staff-001",
+    "deliveryStaffName": "Phạm Văn Hùng",
+    "shippedQuantity": 150,
+    "shippedAt": "2025-03-14T07:00:00Z",
+    "deliveryStatus": "Delivered",
+    "receivedAt": "2025-03-15T16:00:00Z",
+    "createdAt": "2025-03-14T06:00:00Z",
+    "createdByName": "Quản lý kho",
+    "shipmentDetails": [
+      {
+        "shipmentDetailId": "shipd-001",
+        "orderItemId": "oi-001",
+        "productName": "Arabica Premium Grade",
+        "quantity": 150,
+        "unit": "kg",
+        "note": "Giao hàng đầy đủ, chất lượng tốt",
+        "createdAt": "2025-03-14T06:00:00Z"
+      }
+    ]
+  },
+  {
+    "shipmentId": "ship-002",
+    "shipmentCode": "SHIP-2025-002",
+    "orderId": "ord-002",
+    "orderCode": "ORD-2025-002",
+    "deliveryStaffId": "staff-002",
+    "deliveryStaffName": "Trần Minh Tuấn",
+    "shippedQuantity": 175,
+    "shippedAt": "2025-05-14T08:00:00Z",
+    "deliveryStatus": "Delivered",
+    "receivedAt": "2025-05-15T17:30:00Z",
+    "createdAt": "2025-05-14T07:00:00Z",
+    "createdByName": "Quản lý kho",
+    "shipmentDetails": [
+      {
+        "shipmentDetailId": "shipd-002",
+        "orderItemId": "oi-002",
+        "productName": "Arabica Premium Grade",
+        "quantity": 175,
+        "unit": "kg",
+        "note": "Giao hàng đúng tiến độ",
+        "createdAt": "2025-05-14T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "shipmentId": "ship-003",
+    "shipmentCode": "SHIP-2025-003",
+    "orderId": "ord-003",
+    "orderCode": "ORD-2025-003",
+    "deliveryStaffId": "staff-001",
+    "deliveryStaffName": "Phạm Văn Hùng",
+    "shippedQuantity": 300,
+    "shippedAt": "2025-02-27T06:00:00Z",
+    "deliveryStatus": "Delivered",
+    "receivedAt": "2025-02-28T14:00:00Z",
+    "createdAt": "2025-02-27T05:00:00Z",
+    "createdByName": "Quản lý kho",
+    "shipmentDetails": [
+      {
+        "shipmentDetailId": "shipd-003",
+        "orderItemId": "oi-003",
+        "productName": "Robusta Standard Grade",
+        "quantity": 300,
+        "unit": "kg",
+        "note": "Giao hàng toàn bộ, kiểm chất lượng OK",
+        "createdAt": "2025-02-27T05:00:00Z"
+      }
+    ]
+  },
+  {
+    "shipmentId": "ship-004",
+    "shipmentCode": "SHIP-2025-004",
+    "orderId": "ord-004",
+    "orderCode": "ORD-2025-004",
+    "deliveryStaffId": "staff-003",
+    "deliveryStaffName": "Lê Thị Hoa",
+    "shippedQuantity": 120,
+    "shippedAt": "2025-05-25T07:30:00Z",
+    "deliveryStatus": "InTransit",
+    "receivedAt": null,
+    "createdAt": "2025-05-25T07:00:00Z",
+    "createdByName": "Quản lý kho",
+    "shipmentDetails": [
+      {
+        "shipmentDetailId": "shipd-004",
+        "orderItemId": "oi-004",
+        "productName": "Robusta Standard Grade",
+        "quantity": 120,
+        "unit": "kg",
+        "note": "Đang vận chuyển, dự kiến giao 2025-05-27",
+        "createdAt": "2025-05-25T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "shipmentId": "ship-005",
+    "shipmentCode": "SHIP-2025-005",
+    "orderId": "ord-005",
+    "orderCode": "ORD-2025-005",
+    "deliveryStaffId": "staff-002",
+    "deliveryStaffName": "Trần Minh Tuấn",
+    "shippedQuantity": null,
+    "shippedAt": null,
+    "deliveryStatus": "Pending",
+    "receivedAt": null,
+    "createdAt": "2025-06-15T10:00:00Z",
+    "createdByName": "Quản lý đơn hàng",
+    "shipmentDetails": [
+      {
+        "shipmentDetailId": "shipd-005",
+        "orderItemId": "oi-005",
+        "productName": "Arabica Premium Grade",
+        "quantity": 20,
+        "unit": "kg",
+        "note": "Chờ xác nhận từ phía bên mua",
+        "createdAt": "2025-06-15T10:00:00Z"
+      }
+    ]
+  }
+]

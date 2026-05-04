@@ -1,0 +1,87 @@
+[
+  {
+    "planId": "plan-1",
+    "planCode": "PP-001",
+    "title": "Sample Procurement Plan",
+    "description": "Mock procurement plan for local testing.",
+    "totalQuantity": 1000,
+    "createdBy": {
+      "managerId": "mgr-1",
+      "userId": "user-1",
+      "managerCode": "MGR001",
+      "companyName": "Mock Co",
+      "companyAddress": "Dak Lak",
+      "website": "",
+      "contactEmail": "contact@gmail.com"
+    },
+    "startDate": "2026-05-01",
+    "endDate": "2026-06-01",
+    "progressPercentage": 0,
+    "createdAt": "2026-05-01T00:00:00Z",
+    "updatedAt": "2026-05-01T00:00:00Z",
+    "status": "OPEN",
+    "procurementPlansDetails": [
+      {
+        "planDetailsId": "pd-1",
+        "planDetailCode": "PPD-001",
+        "planId": "plan-1",
+        "coffeeTypeId": "ct-1",
+        "coffeeType": {
+          "coffeeTypeId": "ct-1",
+          "typeCode": "ROB",
+          "typeName": "Robusta",
+          "botanicalName": "Coffea canephora",
+          "description": "Robusta quality for export",
+          "typicalRegion": "Dak Lak",
+          "specialtyLevel": "Premium"
+        },
+        "processMethodId": 1,
+        "processingMethodName": "Washed",
+        "targetQuantity": 500,
+        "targetRegion": "Đắk Lắk",
+        "targetRegions": ["Đắk Lắk", "Gia Lai"],
+        "minimumRegistrationQuantity": 50,
+        "minPriceRange": 35000,
+        "maxPriceRange": 42000,
+        "expectedYieldPerHectare": 3.5,
+        "note": "Ưu tiên khu vực có độ cao phù hợp",
+        "progressPercentage": 65,
+        "registeredQuantity": 320,
+        "status": "OPEN",
+        "createdAt": "2026-05-01T00:00:00Z",
+        "updatedAt": "2026-05-02T00:00:00Z"
+      },
+      {
+        "planDetailsId": "pd-2",
+        "planDetailCode": "PPD-002",
+        "planId": "plan-1",
+        "coffeeTypeId": "ct-2",
+        "coffeeType": {
+          "coffeeTypeId": "ct-2",
+          "typeCode": "ARA",
+          "typeName": "Arabica",
+          "botanicalName": "Coffea arabica",
+          "description": "Arabica quality for specialty markets",
+          "typicalRegion": "Lâm Đồng",
+          "specialtyLevel": "Specialty"
+        },
+        "processMethodId": 2,
+        "processingMethodName": "Natural",
+        "targetQuantity": 300,
+        "targetRegion": "Lâm Đồng",
+        "targetRegions": ["Lâm Đồng"],
+        "minimumRegistrationQuantity": 30,
+        "minPriceRange": 50000,
+        "maxPriceRange": 62000,
+        "expectedYieldPerHectare": 2.8,
+        "note": "Ưu tiên hợp tác xã chất lượng cao",
+        "progressPercentage": 40,
+        "registeredQuantity": 120,
+        "status": "OPEN",
+        "createdAt": "2026-05-01T00:00:00Z",
+        "updatedAt": "2026-05-02T00:00:00Z"
+      }
+    ],
+    "commitments": []
+  }
+]

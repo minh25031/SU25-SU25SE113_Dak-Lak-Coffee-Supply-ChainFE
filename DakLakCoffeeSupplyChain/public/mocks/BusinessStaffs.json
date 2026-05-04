@@ -1,0 +1,56 @@
+[
+  {
+    "staffId": "staff-001",
+    "staffCode": "BS-001",
+    "fullName": "Lê Văn Tuấn",
+    "email": "letuan@daklakcoffee.vn",
+    "position": "Quản lý Kho",
+    "department": "Operations",
+    "warehouse": "Kho Buôn Ma Thuột"
+  },
+  {
+    "staffId": "staff-002",
+    "staffCode": "BS-002",
+    "fullName": "Trương Minh Hùng",
+    "email": "truongminh@daklakcoffee.vn",
+    "position": "Quản lý Kho Nông Sản",
+    "department": "Operations",
+    "warehouse": "Kho Nông Sản Tươi"
+  },
+  {
+    "staffId": "staff-003",
+    "staffCode": "BS-003",
+    "fullName": "Võ Thị Hương",
+    "email": "vothihuong@daklakcoffee.vn",
+    "position": "Nhân viên Kho",
+    "department": "Operations",
+    "warehouse": "Kho Buôn Ma Thuột 2"
+  },
+  {
+    "staffId": "staff-004",
+    "staffCode": "BS-004",
+    "fullName": "Phạm Văn Hùng",
+    "email": "phamvanhung@daklakcoffee.vn",
+    "position": "Nhân viên Vận Chuyển",
+    "department": "Logistics",
+    "warehouse": "Kho Buôn Ma Thuột"
+  },
+  {
+    "staffId": "staff-005",
+    "staffCode": "BS-005",
+    "fullName": "Lê Thị Hoa",
+    "email": "lethihoa@daklakcoffee.vn",
+    "position": "Nhân viên Vận Chuyển",
+    "department": "Logistics",
+    "warehouse": "Kho Buôn Ma Thuột"
+  },
+  {
+    "staffId": "staff-006",
+    "staffCode": "BS-006",
+    "fullName": "Trần Minh Tuấn",
+    "email": "tranminhuan@daklakcoffee.vn",
+    "position": "Nhân viên Vận Chuyển",
+    "department": "Logistics",
+    "warehouse": "Kho Nông Sản Tươi"
+  }
+]

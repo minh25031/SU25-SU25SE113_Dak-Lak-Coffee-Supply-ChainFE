@@ -1,0 +1,18 @@
+[
+  {
+    "productId": "prod-1",
+    "productCode": "P-001",
+    "productName": "Robusta Sample",
+    "unitPrice": 120,
+    "quantityAvailable": 500,
+    "unit": "Kg",
+    "originRegion": "Dak Lak",
+    "evaluatedQuality": "Good",
+    "evaluationScore": 85,
+    "status": "AVAILABLE",
+    "createdAt": "2026-04-01T00:00:00Z",
+    "coffeeTypeName": "Robusta",
+    "inventoryLocation": "Warehouse A",
+    "batchCode": "BATCH-001"
+  }
+]

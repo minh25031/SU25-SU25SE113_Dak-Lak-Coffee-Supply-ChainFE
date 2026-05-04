@@ -1,0 +1,24 @@
+[
+  {
+    "adviceId": "adv-1",
+    "reportId": "rep-1",
+    "expertId": "user-expert",
+    "expertName": "Expert User",
+    "responseType": "Recommendation",
+    "adviceSource": "Field Visit",
+    "adviceText": "Nên bón phân NPK theo tỷ lệ 10:10:10 vào giai đoạn mầm.",
+    "attachedFileUrl": "",
+    "createdAt": "2026-04-20T09:00:00Z"
+  },
+  {
+    "adviceId": "adv-2",
+    "reportId": "rep-2",
+    "expertId": "user-expert",
+    "expertName": "Expert User",
+    "responseType": "Warning",
+    "adviceSource": "Remote",
+    "adviceText": "Phát hiện sâu bệnh, cần xử lý bằng thuốc hữu cơ.",
+    "attachedFileUrl": "",
+    "createdAt": "2026-04-25T11:30:00Z"
+  }
+]

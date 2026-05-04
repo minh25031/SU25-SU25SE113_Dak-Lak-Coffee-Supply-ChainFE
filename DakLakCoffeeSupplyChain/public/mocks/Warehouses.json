@@ -1,0 +1,53 @@
+[
+  {
+    "warehouseId": "wh-001",
+    "warehouseCode": "WH-BMT-001",
+    "warehouseName": "Kho Buôn Ma Thuột",
+    "location": "Thành phố Buôn Ma Thuột, Tỉnh Đắk Lắk",
+    "warehouseType": "Processed",
+    "capacity": 10000,
+    "currentUsage": 1150,
+    "managerId": "staff-001",
+    "managerName": "Lê Văn Tuấn",
+    "phone": "0262-3123456",
+    "email": "warehouse.bmt@example.com",
+    "status": "Active",
+    "createdAt": "2024-06-01T08:00:00Z",
+    "updatedAt": "2025-05-20T14:00:00Z",
+    "isDeleted": false
+  },
+  {
+    "warehouseId": "wh-002",
+    "warehouseCode": "WH-NST-001",
+    "warehouseName": "Kho Nông Sản Tươi",
+    "location": "Thôn 1, Xã Hòa Sơn, Huyện Krông Bông, Tỉnh Đắk Lắk",
+    "warehouseType": "Fresh",
+    "capacity": 2000,
+    "currentUsage": 820,
+    "managerId": "staff-002",
+    "managerName": "Trương Minh Hùng",
+    "phone": "0262-3654321",
+    "email": "warehouse.nst@example.com",
+    "status": "Active",
+    "createdAt": "2024-08-15T09:00:00Z",
+    "updatedAt": "2025-05-20T15:00:00Z",
+    "isDeleted": false
+  },
+  {
+    "warehouseId": "wh-003",
+    "warehouseCode": "WH-BMT-002",
+    "warehouseName": "Kho Buôn Ma Thuột 2 - Backup",
+    "location": "Quận Buôn Ma Thuột, Tỉnh Đắk Lắk",
+    "warehouseType": "Processed",
+    "capacity": 8000,
+    "currentUsage": 0,
+    "managerId": "staff-003",
+    "managerName": "Võ Thị Hương",
+    "phone": "0262-7789456",
+    "email": "warehouse.bmt2@example.com",
+    "status": "Active",
+    "createdAt": "2025-01-20T10:00:00Z",
+    "updatedAt": "2025-01-20T10:00:00Z",
+    "isDeleted": false
+  }
+]

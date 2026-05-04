@@ -1,0 +1,47 @@
+[
+  {
+    "evaluationId": "eval-001",
+    "evaluationCode": "EVAL-001",
+    "batchId": "pb-001",
+    "evaluatedBy": "expert-001",
+    "evaluationResult": "Passed",
+    "comments": "Lô cà phê đạt chất lượng tuyệt vời",
+    "detailedFeedback": "Hạn độ ẩm, vị chua đạt tiêu chuẩn, không phát hiện hạt lỗi.",
+    "problematicSteps": [],
+    "recommendations": "Tiếp tục duy trì quy trình xử lý hiện tại.",
+    "evaluatedAt": "2025-01-25T14:00:00Z",
+    "createdAt": "2025-01-25T14:00:00Z",
+    "updatedAt": "2025-01-25T14:00:00Z",
+    "expertName": "Dr. Phạm Minh Khôi"
+  },
+  {
+    "evaluationId": "eval-002",
+    "evaluationCode": "EVAL-002",
+    "batchId": "pb-002",
+    "evaluatedBy": "expert-002",
+    "evaluationResult": "Passed",
+    "comments": "Robusta đạt chuẩn thương mại",
+    "detailedFeedback": "Hạt có kích thước đều, độ đen phù hợp, mùi hương đặc trưng.",
+    "problematicSteps": [],
+    "recommendations": "Cải thiện control độ ẩm trong giai đoạn lên men.",
+    "evaluatedAt": "2025-03-10T15:30:00Z",
+    "createdAt": "2025-03-10T15:30:00Z",
+    "updatedAt": "2025-03-10T15:30:00Z",
+    "expertName": "Thạc sĩ Trần Văn Hùng"
+  },
+  {
+    "evaluationId": "eval-003",
+    "evaluationCode": "EVAL-003",
+    "batchId": "pb-003",
+    "evaluatedBy": "expert-003",
+    "evaluationResult": "Pending",
+    "comments": "Chưa đánh giá",
+    "detailedFeedback": null,
+    "problematicSteps": [],
+    "recommendations": null,
+    "evaluatedAt": null,
+    "createdAt": "2025-04-15T08:00:00Z",
+    "updatedAt": "2025-04-15T08:00:00Z",
+    "expertName": "Ths. Hoàng Thị Liên"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "userId": "user-001",
+    "userCode": "USR-001",
+    "name": "Nguyễn Văn A",
+    "email": "admin@gmail.com",
+    "phoneNumber": "0901234567",
+    "roleName": "Admin",
+    "status": "Active",
+    "lastLogin": "2025-05-20T15:30:00Z",
+    "registrationDate": "2024-01-01T08:00:00Z"
+  },
+  {
+    "userId": "user-002",
+    "userCode": "USR-002",
+    "name": "Trần Thị B",
+    "email": "manager@gmail.com",
+    "phoneNumber": "0901234568",
+    "roleName": "Manager",
+    "status": "Active",
+    "lastLogin": "2025-05-20T14:00:00Z",
+    "registrationDate": "2024-02-01T08:00:00Z"
+  },
+  {
+    "userId": "user-003",
+    "userCode": "USR-003",
+    "name": "Hoàng Văn C",
+    "email": "farmer@gmail.com",
+    "phoneNumber": "0901234569",
+    "roleName": "Farmer",
+    "status": "Active",
+    "lastLogin": "2025-05-20T10:00:00Z",
+    "registrationDate": "2024-03-01T08:00:00Z"
+  },
+  {
+    "userId": "user-004",
+    "userCode": "USR-004",
+    "name": "Phạm Minh Khôi",
+    "email": "expert@gmail.com",
+    "phoneNumber": "0901234570",
+    "roleName": "Expert",
+    "status": "Active",
+    "lastLogin": "2025-05-20T11:00:00Z",
+    "registrationDate": "2024-04-01T08:00:00Z"
+  },
+  {
+    "userId": "user-005",
+    "userCode": "USR-005",
+    "name": "Lê Minh Toàn",
+    "email": "staff@gmail.com",
+    "phoneNumber": "0901234571",
+    "roleName": "Staff",
+    "status": "Active",
+    "lastLogin": "2025-05-20T09:30:00Z",
+    "registrationDate": "2024-05-01T08:00:00Z"
+  }
+]

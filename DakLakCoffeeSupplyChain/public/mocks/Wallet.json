@@ -1,0 +1,54 @@
+[
+  {
+    "walletId": "w-001",
+    "userId": "usr-001",
+    "walletType": "Business",
+    "totalBalance": 85500000,
+    "lastUpdated": "2025-05-22T18:00:00Z",
+    "isDeleted": false,
+    "userName": "Nguyễn Văn Thành",
+    "userCode": "BUS-001",
+    "totalTransactions": 45,
+    "totalInflow": 150000000,
+    "totalOutflow": 64500000
+  },
+  {
+    "walletId": "w-002",
+    "userId": "usr-002",
+    "walletType": "Business",
+    "totalBalance": 62300000,
+    "lastUpdated": "2025-05-22T17:30:00Z",
+    "isDeleted": false,
+    "userName": "Trần Thị Hương",
+    "userCode": "BUS-002",
+    "totalTransactions": 32,
+    "totalInflow": 120000000,
+    "totalOutflow": 57700000
+  },
+  {
+    "walletId": "w-003",
+    "userId": "usr-003",
+    "walletType": "Farmer",
+    "totalBalance": 28500000,
+    "lastUpdated": "2025-05-22T16:00:00Z",
+    "isDeleted": false,
+    "userName": "Nguyễn Văn A",
+    "userCode": "FAR-001",
+    "totalTransactions": 15,
+    "totalInflow": 45000000,
+    "totalOutflow": 16500000
+  },
+  {
+    "walletId": "w-004",
+    "userId": "usr-004",
+    "walletType": "Farmer",
+    "totalBalance": 19200000,
+    "lastUpdated": "2025-05-22T15:30:00Z",
+    "isDeleted": false,
+    "userName": "Trần Thị B",
+    "userCode": "FAR-002",
+    "totalTransactions": 12,
+    "totalInflow": 32000000,
+    "totalOutflow": 12800000
+  }
+]

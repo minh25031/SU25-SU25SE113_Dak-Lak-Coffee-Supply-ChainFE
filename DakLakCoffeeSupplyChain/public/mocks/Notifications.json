@@ -1,0 +1,35 @@
+[
+  {
+    "notificationId": "notif-001",
+    "notificationCode": "NTF-001",
+    "title": "Đơn đăng ký đã được phê duyệt",
+    "message": "Đơn đăng ký canh tác REG-001 của bạn đã được phê duyệt",
+    "type": "Registration",
+    "createdAt": "2026-05-01T10:00:00Z",
+    "createdBy": "system",
+    "isRead": false,
+    "readAt": null
+  },
+  {
+    "notificationId": "notif-002",
+    "notificationCode": "NTF-002",
+    "title": "Cập nhật về lô xử lý",
+    "message": "Lô xử lý PB-ARB-001 đã hoàn thành giai đoạn phơi khô",
+    "type": "Processing",
+    "createdAt": "2026-05-02T14:30:00Z",
+    "createdBy": "system",
+    "isRead": true,
+    "readAt": "2026-05-02T15:00:00Z"
+  },
+  {
+    "notificationId": "notif-003",
+    "notificationCode": "NTF-003",
+    "title": "Yêu cầu nhập kho mới",
+    "message": "Bạn có yêu cầu nhập kho mới từ lô xử lý PB-ROB-001",
+    "type": "Warehouse",
+    "createdAt": "2026-05-03T09:15:00Z",
+    "createdBy": "system",
+    "isRead": false,
+    "readAt": null
+  }
+]

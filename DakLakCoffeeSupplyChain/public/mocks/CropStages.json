@@ -1,0 +1,30 @@
+[
+  {
+    "stageId": 1,
+    "stageCode": "sowing",
+    "stageName": "Gieo trồng",
+    "description": "Giai đoạn gieo hạt và chăm sóc ban đầu",
+    "orderIndex": 1
+  },
+  {
+    "stageId": 2,
+    "stageCode": "care",
+    "stageName": "Chăm sóc",
+    "description": "Tưới nước, bón phân, tỉa cành",
+    "orderIndex": 2
+  },
+  {
+    "stageId": 3,
+    "stageCode": "monitoring",
+    "stageName": "Theo dõi",
+    "description": "Ghi nhận tiến độ và tình trạng cây trồng",
+    "orderIndex": 3
+  },
+  {
+    "stageId": 4,
+    "stageCode": "harvest",
+    "stageName": "Thu hoạch",
+    "description": "Thu hoạch và tổng kết sản lượng",
+    "orderIndex": 4
+  }
+]

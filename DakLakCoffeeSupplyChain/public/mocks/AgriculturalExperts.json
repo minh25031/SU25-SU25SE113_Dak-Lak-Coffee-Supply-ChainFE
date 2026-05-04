@@ -1,0 +1,50 @@
+[
+  {
+    "expertId": "expert-001",
+    "expertCode": "EXP-001",
+    "fullName": "Dr. Phạm Minh Khôi",
+    "email": "phamkhoi@expert.vn",
+    "phoneNumber": "0912345678",
+    "expertiseArea": "Cà phê Arabica - Kỹ thuật trồng & chế biến",
+    "qualifications": "Tiến sĩ Nông học, Đại học Tây Nguyên; Chứng chỉ ISO 22000",
+    "yearsOfExperience": 15,
+    "affiliatedOrganization": "Viện Nghiên cứu Cà phê Việt Nam",
+    "bio": "Chuyên gia hàng đầu trong lĩnh vực cà phê Arabica, có hơn 15 năm kinh nghiệm nghiên cứu và phát triển.",
+    "rating": 4.9,
+    "isVerified": true,
+    "createdAt": "2024-06-01T08:00:00Z",
+    "updatedAt": "2025-05-20T14:00:00Z"
+  },
+  {
+    "expertId": "expert-002",
+    "expertCode": "EXP-002",
+    "fullName": "Thạc sĩ Trần Văn Hùng",
+    "email": "tranhung@expert.vn",
+    "phoneNumber": "0912345679",
+    "expertiseArea": "Cà phê Robusta - Quản lý chất lượng",
+    "qualifications": "Thạc sĩ Công nghệ Thực phẩm, ĐH Nông Lâm TP.HCM; Chứng chỉ Cupping Specialist",
+    "yearsOfExperience": 12,
+    "affiliatedOrganization": "Hiệp hội Cà phê Việt Nam",
+    "bio": "Chuyên gia về quản lý chất lượng cà phê Robusta và đánh giá cảm quan.",
+    "rating": 4.7,
+    "isVerified": true,
+    "createdAt": "2024-07-15T09:00:00Z",
+    "updatedAt": "2025-05-18T11:30:00Z"
+  },
+  {
+    "expertId": "expert-003",
+    "expertCode": "EXP-003",
+    "fullName": "Ths. Hoàng Thị Liên",
+    "email": "hoangthilian@expert.vn",
+    "phoneNumber": "0912345680",
+    "expertiseArea": "Xử lý sau thu hoạch - Fermentation & Drying",
+    "qualifications": "Thạc sĩ Hóa học Ứng dụng, ĐH Khoa học Tự nhiên; 10+ năm thực tập",
+    "yearsOfExperience": 10,
+    "affiliatedOrganization": "Công ty Cà phê Đắk Lắk",
+    "bio": "Chuyên gia về các quy trình lên men và phơi khô, đảm bảo chất lượng tối ưu.",
+    "rating": 4.5,
+    "isVerified": true,
+    "createdAt": "2024-08-20T10:00:00Z",
+    "updatedAt": "2025-05-15T09:00:00Z"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "userId": "user-admin",
+    "userCode": "U-ADMIN",
+    "name": "Admin User",
+    "email": "admin@gmail.com",
+    "password": "admin",    
+    "phoneNumber": "0123456001",
+    "roleName": "Admin",
+    "status": "Active",
+    "registrationDate": "2026-01-01T00:00:00Z",
+    "profilePictureUrl": "/images/avatar-admin.png"
+  },
+  {
+    "userId": "user-manager",
+    "userCode": "U-MGR",
+    "name": "Manager User",
+    "email": "manager@gmail.com",
+    "password": "manager",
+    "phoneNumber": "0123456002",
+    "roleName": "Manager",
+    "status": "Active",
+    "registrationDate": "2026-02-01T00:00:00Z",
+    "profilePictureUrl": "/images/avatar-manager.png"
+  },
+  {
+    "userId": "user-farmer",
+    "userCode": "U-FRM",
+    "name": "Farmer User",
+    "email": "farmer@gmail.com",
+    "password": "farmer",
+    "phoneNumber": "0123456003",
+    "roleName": "Farmer",
+    "status": "Active",
+    "registrationDate": "2026-03-01T00:00:00Z",
+    "profilePictureUrl": "/images/avatar-farmer.png"
+  },
+  {
+    "userId": "user-expert",
+    "userCode": "U-EXP",
+    "name": "Expert User",
+    "email": "expert@gmail.com",
+    "password": "expert",
+    "phoneNumber": "0123456004",
+    "roleName": "Expert",
+    "status": "Active",
+    "registrationDate": "2026-04-01T00:00:00Z",
+    "profilePictureUrl": "/images/avatar-expert.png"
+  },
+  {
+    "userId": "user-buyer",
+    "userCode": "U-BUY",
+    "name": "Buyer User",
+    "email": "buyer@gmail.com",
+    "password": "buyer",
+    "phoneNumber": "0123456005",
+    "roleName": "Buyer",
+    "status": "Active",
+    "registrationDate": "2026-04-15T00:00:00Z",
+    "profilePictureUrl": "/images/avatar-buyer.png"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "farmerId": "farm-001",
+    "farmerCode": "FR001",
+    "userId": "usr-003",
+    "farmerName": "Nguyễn Văn A",
+    "farmLocation": "Thôn 1, Xã Hòa Sơn, Huyện Krông Bông, Tỉnh Đắk Lắk",
+    "farmSize": 5.5,
+    "certificationStatus": "Certified",
+    "certificationUrl": "https://example.com/cert/farm-001.pdf",
+    "isVerified": true,
+    "createdAt": "2024-06-01T08:00:00Z",
+    "updatedAt": "2025-01-20T15:30:00Z",
+    "isDeleted": false
+  },
+  {
+    "farmerId": "farm-002",
+    "farmerCode": "FR002",
+    "userId": "usr-004",
+    "farmerName": "Trần Thị B",
+    "farmLocation": "Thôn 2, Xã Cư Kuin, Huyện Lắk, Tỉnh Đắk Lắk",
+    "farmSize": 8.2,
+    "certificationStatus": "Pending",
+    "certificationUrl": "https://example.com/cert/farm-002.pdf",
+    "isVerified": false,
+    "createdAt": "2024-08-15T09:45:00Z",
+    "updatedAt": "2025-01-18T10:20:00Z",
+    "isDeleted": false
+  },
+  {
+    "farmerId": "farm-003",
+    "farmerCode": "FR003",
+    "userId": "usr-005",
+    "farmerName": "Hoàng Văn C",
+    "farmLocation": "Thôn 3, Xã Eakar, Huyện Eakar, Tỉnh Đắk Lắk",
+    "farmSize": 12.0,
+    "certificationStatus": "Certified",
+    "certificationUrl": "https://example.com/cert/farm-003.pdf",
+    "isVerified": true,
+    "createdAt": "2024-05-10T07:15:00Z",
+    "updatedAt": "2025-01-22T14:00:00Z",
+    "isDeleted": false
+  }
+]

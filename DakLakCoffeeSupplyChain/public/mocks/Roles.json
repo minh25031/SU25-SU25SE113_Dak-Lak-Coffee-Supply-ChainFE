@@ -1,0 +1,10 @@
+[
+  {
+    "roleId": 2,
+    "roleName": "Business"
+  },
+  {
+    "roleId": 3,
+    "roleName": "Farmer"
+  }
+]

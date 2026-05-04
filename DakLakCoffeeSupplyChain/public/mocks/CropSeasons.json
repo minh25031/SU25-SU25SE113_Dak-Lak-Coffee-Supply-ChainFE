@@ -1,0 +1,45 @@
+[
+  {
+    "id": "cs-1",
+    "cropSeasonId": "cs-1",
+    "name": "Mùa vụ 2026 - Vụ Xuân",
+    "seasonName": "Vụ Xuân 2026",
+    "description": "Mùa vụ thử nghiệm cho khu vực Đắk Lắk.",
+    "startDate": "2026-03-01",
+    "endDate": "2026-07-01",
+    "status": "Active",
+    "note": "Ươm giống và chăm sóc ban đầu",
+    "area": 120,
+    "details": [
+      {
+        "detailId": "csd-1",
+        "coffeeTypeId": "ct-1",
+        "typeName": "Robusta",
+        "areaAllocated": 50,
+        "expectedHarvestStart": "2026-05-10",
+        "expectedHarvestEnd": "2026-06-30",
+        "estimatedYield": 2000,
+        "actualYield": null,
+        "plannedQuality": "Good",
+        "qualityGrade": "A",
+        "status": "Active",
+        "farmerId": "user-farmer",
+        "farmerName": "Farmer User",
+        "committedQuantity": 500
+      }
+    ]
+  },
+  {
+    "id": "cs-2",
+    "cropSeasonId": "cs-2",
+    "name": "Mùa vụ 2026 - Vụ Hè",
+    "seasonName": "Vụ Hè 2026",
+    "description": "Mùa vụ cho thử nghiệm chất lượng",
+    "startDate": "2026-06-01",
+    "endDate": "2026-10-01",
+    "status": "Planned",
+    "note": "Chuẩn bị đất",
+    "area": 80,
+    "details": []
+  }
+]

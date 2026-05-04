@@ -1,0 +1,9 @@
+{
+  "heroImage": "/images/Coffee.png",
+  "heroTitle": "Liên kết nông dân & doanh nghiệp",
+  "heroSubtitle": "Nền tảng B2B giúp số hóa chuỗi cung ứng cà phê Việt Nam",
+  "banners": [
+    { "id": "b-1", "title": "Truy xuất nguồn gốc", "image": "/images/banner1.png" },
+    { "id": "b-2", "title": "Kết nối bền vững", "image": "/images/banner2.png" }
+  ]
+}

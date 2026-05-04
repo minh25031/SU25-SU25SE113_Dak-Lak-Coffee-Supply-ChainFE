@@ -1,0 +1,47 @@
+[
+  {
+    "methodId": "pm-001",
+    "methodCode": "WASHED",
+    "name": "Washed Process",
+    "description": "Beans are fermented in water to remove the cherry and mucilage, then dried. This method produces a cleaner, more acidic cup with brighter flavors.",
+    "isDeleted": false,
+    "createdAt": "2025-01-15T10:30:00Z",
+    "updatedAt": "2025-01-15T10:30:00Z"
+  },
+  {
+    "methodId": "pm-002",
+    "methodCode": "NATURAL",
+    "name": "Natural Process",
+    "description": "Whole beans are dried in the sun with the cherry fruit intact. This method produces fruity, full-bodied coffees with lower acidity.",
+    "isDeleted": false,
+    "createdAt": "2025-01-15T10:30:00Z",
+    "updatedAt": "2025-01-15T10:30:00Z"
+  },
+  {
+    "methodId": "pm-003",
+    "methodCode": "SEMI-WASHED",
+    "name": "Semi-Washed Process",
+    "description": "Also called pulped natural, beans are pulped but dried with some mucilage remaining. This method balances characteristics of washed and natural processes.",
+    "isDeleted": false,
+    "createdAt": "2025-01-15T10:30:00Z",
+    "updatedAt": "2025-01-15T10:30:00Z"
+  },
+  {
+    "methodId": "pm-004",
+    "methodCode": "ANAEROBIC",
+    "name": "Anaerobic Fermentation",
+    "description": "Beans are fermented in an oxygen-free environment, producing complex, wine-like flavors with intense aromatics.",
+    "isDeleted": false,
+    "createdAt": "2025-01-16T11:00:00Z",
+    "updatedAt": "2025-01-16T11:00:00Z"
+  },
+  {
+    "methodId": "pm-005",
+    "methodCode": "HONEY",
+    "name": "Honey Process",
+    "description": "A hybrid method where some mucilage is left on the bean during drying, creating sweet, balanced coffees.",
+    "isDeleted": false,
+    "createdAt": "2025-01-16T11:00:00Z",
+    "updatedAt": "2025-01-16T11:00:00Z"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "disposalId": "disp-001",
+    "disposalCode": "DISP-001",
+    "wasteName": "Broken Beans - Arabica Batch 1",
+    "revenue": 150000,
+    "unit": "kg",
+    "disposalMethod": "Animal Feed",
+    "createdAt": "2025-01-21T14:00:00Z"
+  },
+  {
+    "disposalId": "disp-002",
+    "disposalCode": "DISP-002",
+    "wasteName": "Dust and Debris - Arabica Batch 1",
+    "revenue": 75000,
+    "unit": "kg",
+    "disposalMethod": "Compost/Organic Matter",
+    "createdAt": "2025-01-21T14:30:00Z"
+  },
+  {
+    "disposalId": "disp-003",
+    "disposalCode": "DISP-003",
+    "wasteName": "Hulls - Robusta Processing",
+    "revenue": 200000,
+    "unit": "kg",
+    "disposalMethod": "Biofuel/Biomass",
+    "createdAt": "2025-03-05T16:00:00Z"
+  },
+  {
+    "disposalId": "disp-004",
+    "disposalCode": "DISP-004",
+    "wasteName": "Coffee Pulp - Natural Process",
+    "revenue": 0,
+    "unit": "kg",
+    "disposalMethod": "Waste Water Treatment",
+    "createdAt": "2025-03-06T10:00:00Z"
+  }
+]

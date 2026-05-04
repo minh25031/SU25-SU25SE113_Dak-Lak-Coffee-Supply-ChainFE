@@ -1,0 +1,95 @@
+[
+  {
+    "receiptId": "receipt-001",
+    "receiptCode": "RCP-001-2025",
+    "requestId": "wor-001",
+    "requestCode": "WOR-001-2025",
+    "warehouseId": "wh-001",
+    "warehouseName": "BMT Processed Coffee",
+    "inventoryId": "inv-001",
+    "productName": "Cà phê Arabica Premium",
+    "requestedQuantity": 200,
+    "receivedQuantity": 200,
+    "unit": "kg",
+    "deliveryStaffId": "staff-001",
+    "deliveryStaffName": "Lê Minh Toàn",
+    "status": "Completed",
+    "shippedAt": "2025-01-21T08:00:00Z",
+    "deliveredAt": "2025-01-21T16:30:00Z",
+    "receivedByName": "Buyer Representative",
+    "receiptNotes": "Hàng nhận đầy đủ, chất lượng tốt",
+    "createdAt": "2025-01-21T08:00:00Z",
+    "updatedAt": "2025-01-21T16:30:00Z",
+    "receiptDetails": [
+      {
+        "detailId": "rd-001",
+        "batchCode": "ARB-BATCH-001",
+        "quantity": 200,
+        "unit": "kg",
+        "notes": "Hoàn thiện 100%"
+      }
+    ]
+  },
+  {
+    "receiptId": "receipt-002",
+    "receiptCode": "RCP-002-2025",
+    "requestId": "wor-002",
+    "requestCode": "WOR-002-2025",
+    "warehouseId": "wh-002",
+    "warehouseName": "NST Fresh Coffee",
+    "inventoryId": "inv-002",
+    "productName": "Cà phê tươi Robusta",
+    "requestedQuantity": 300,
+    "receivedQuantity": 300,
+    "unit": "kg",
+    "deliveryStaffId": "staff-002",
+    "deliveryStaffName": "Nguyễn Văn Tuấn",
+    "status": "Completed",
+    "shippedAt": "2025-01-26T09:00:00Z",
+    "deliveredAt": "2025-01-26T14:00:00Z",
+    "receivedByName": "Processing Manager",
+    "receiptNotes": "Hàng tươi, chưa thấy dấu hiệu khô héo",
+    "createdAt": "2025-01-26T09:00:00Z",
+    "updatedAt": "2025-01-26T14:00:00Z",
+    "receiptDetails": [
+      {
+        "detailId": "rd-002",
+        "batchCode": "FRESH-BATCH-001",
+        "quantity": 300,
+        "unit": "kg",
+        "notes": "Tươi nguyên"
+      }
+    ]
+  },
+  {
+    "receiptId": "receipt-003",
+    "receiptCode": "RCP-003-2025",
+    "requestId": "wor-001",
+    "requestCode": "WOR-001-2025",
+    "warehouseId": "wh-001",
+    "warehouseName": "BMT Processed Coffee",
+    "inventoryId": "inv-001",
+    "productName": "Cà phê Arabica Premium",
+    "requestedQuantity": 100,
+    "receivedQuantity": 100,
+    "unit": "kg",
+    "deliveryStaffId": "staff-003",
+    "deliveryStaffName": "Trần Quốc Hùng",
+    "status": "InTransit",
+    "shippedAt": "2025-03-01T10:00:00Z",
+    "deliveredAt": null,
+    "receivedByName": null,
+    "receiptNotes": null,
+    "createdAt": "2025-03-01T10:00:00Z",
+    "updatedAt": "2025-03-01T10:00:00Z",
+    "receiptDetails": [
+      {
+        "detailId": "rd-003",
+        "batchCode": "ARB-BATCH-002",
+        "quantity": 100,
+        "unit": "kg",
+        "notes": "Đang vận chuyển"
+      }
+    ]
+  }
+]

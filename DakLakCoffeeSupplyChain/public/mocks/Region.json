@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Dak Lak",
+    "code": "DL",
+    "division_type": "province",
+    "codename": "dak-lak",
+    "phone_code": 0,
+    "wards": [
+      { "name": "Ward 1", "code": "W1", "division_type": "ward", "codename": "w1", "province_code": 1 }
+    ]
+  },
+  {
+    "name": "Region A",
+    "code": "RA",
+    "division_type": "region",
+    "codename": "region-a",
+    "phone_code": 0,
+    "wards": []
+  }
+]

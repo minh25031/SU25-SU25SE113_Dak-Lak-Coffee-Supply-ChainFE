@@ -1,0 +1,50 @@
+[
+  {
+    "reportId": "report-001",
+    "title": "Sâu bệnh xảy ra ở giai đoạn phát triển",
+    "description": "Phát hiện sâu ăn lá và một số bệnh lá trên cây cà phê. Diện tích ảnh hưởng khoảng 20-30% thửa.",
+    "severityLevel": 2,
+    "imageUrl": "https://example.com/reports/report-001.jpg",
+    "videoUrl": null,
+    "isResolved": true,
+    "reportedAt": "2025-03-15T10:30:00Z",
+    "updatedAt": "2025-03-25T14:00:00Z",
+    "resolvedAt": "2025-03-25T14:00:00Z",
+    "reportedByName": "Nguyễn Văn A",
+    "cropStageCode": "STAGE-003",
+    "cropStageDescription": "Giai đoạn hoa nụ",
+    "cropStageName": "Hoa nụ"
+  },
+  {
+    "reportId": "report-002",
+    "title": "Mưa lớn gây ngập úng",
+    "description": "Mưa kéo dài 3 ngày làm tích nước ở một số điểm thửa, có nguy cơ gây rệp rễ.",
+    "severityLevel": 3,
+    "imageUrl": "https://example.com/reports/report-002.jpg",
+    "videoUrl": "https://example.com/reports/report-002.mp4",
+    "isResolved": true,
+    "reportedAt": "2025-04-20T08:00:00Z",
+    "updatedAt": "2025-04-22T11:00:00Z",
+    "resolvedAt": "2025-04-22T11:00:00Z",
+    "reportedByName": "Trần Thị B",
+    "cropStageCode": "STAGE-004",
+    "cropStageDescription": "Giai đoạn trái",
+    "cropStageName": "Trái"
+  },
+  {
+    "reportId": "report-003",
+    "title": "Khô hạn kéo dài ảnh hưởng đến trái",
+    "description": "Tháng 5 không có mưa, độ ẩm đất thấp, trái cà phê phát triển chậm.",
+    "severityLevel": 2,
+    "imageUrl": null,
+    "videoUrl": null,
+    "isResolved": false,
+    "reportedAt": "2025-05-10T09:15:00Z",
+    "updatedAt": "2025-05-20T10:00:00Z",
+    "resolvedAt": null,
+    "reportedByName": "Hoàng Văn C",
+    "cropStageCode": "STAGE-004",
+    "cropStageDescription": "Giai đoạn trái",
+    "cropStageName": "Trái"
+  }
+]

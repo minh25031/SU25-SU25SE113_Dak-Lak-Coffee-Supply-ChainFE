@@ -1,0 +1,47 @@
+[
+  {
+    "buyerId": "buyer-001",
+    "buyerCode": "BB-001",
+    "companyName": "Công ty TNHH Cà Phê Đắk Lắk",
+    "contactPerson": "Nguyễn Văn Thành",
+    "position": "Giám đốc Kinh doanh",
+    "companyAddress": "123 Đường Tự Do, Thành phố Buôn Ma Thuột, Tỉnh Đắk Lắk",
+    "taxId": "0101234567890",
+    "email": "contact@caffedaklak.com.vn",
+    "phone": "0262-3123456",
+    "website": "www.caffedaklak.com.vn",
+    "createdAt": "2024-10-15T08:00:00Z",
+    "updatedAt": "2025-05-20T14:00:00Z",
+    "createdByName": "Admin System"
+  },
+  {
+    "buyerId": "buyer-002",
+    "buyerCode": "BB-002",
+    "companyName": "Công ty TNHH Nông Sản Đắk Lắk",
+    "contactPerson": "Trần Thị Hương",
+    "position": "Phó Giám đốc",
+    "companyAddress": "456 Đường Nguyễn Huệ, Thành phố Buôn Ma Thuột, Tỉnh Đắk Lắk",
+    "taxId": "0101234567891",
+    "email": "info@nongsandaklak.vn",
+    "phone": "0262-3654321",
+    "website": "www.nongsandaklak.vn",
+    "createdAt": "2024-11-20T09:30:00Z",
+    "updatedAt": "2025-05-15T10:00:00Z",
+    "createdByName": "Admin System"
+  },
+  {
+    "buyerId": "buyer-003",
+    "buyerCode": "BB-003",
+    "companyName": "Tập đoàn Cà Phê Việt",
+    "contactPerson": "Hoàng Văn Tuấn",
+    "position": "Trưởng phòng Mua hàng",
+    "companyAddress": "789 Đường Trường Chinh, Hà Nội",
+    "taxId": "0100123456789",
+    "email": "procurement@cafegroup.vn",
+    "phone": "024-3999999",
+    "website": "www.cafegroup.vn",
+    "createdAt": "2025-01-10T07:00:00Z",
+    "updatedAt": "2025-05-22T11:30:00Z",
+    "createdByName": "Admin System"
+  }
+]

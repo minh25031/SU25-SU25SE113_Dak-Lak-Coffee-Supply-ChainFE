@@ -1,0 +1,132 @@
+[
+  {
+    "stageId": 1,
+    "stageCode": "STAGE-001",
+    "description": "Giai đoạn phơi khô và sơ chế",
+    "stageName": "Drying",
+    "orderIndex": 1,
+    "methodId": 1,
+    "isRequired": true,
+    "isDeleted": false
+  },
+  {
+    "stageId": 2,
+    "stageCode": "STAGE-002",
+    "description": "Giai đoạn bóc vỏ",
+    "stageName": "Hulling",
+    "orderIndex": 2,
+    "methodId": 1,
+    "isRequired": true,
+    "isDeleted": false
+  },
+  {
+    "stageId": 3,
+    "stageCode": "STAGE-003",
+    "description": "Giai đoạn phân loại",
+    "stageName": "Grading",
+    "orderIndex": 3,
+    "methodId": 1,
+    "isRequired": true,
+    "isDeleted": false
+  },
+  {
+    "stageId": 4,
+    "stageCode": "STAGE-004",
+    "description": "Giai đoạn đánh bóng",
+    "stageName": "Polishing",
+    "orderIndex": 4,
+    "methodId": 1,
+    "isRequired": false,
+    "isDeleted": false
+  },
+  {
+    "stageId": 5,
+    "stageCode": "STAGE-005",
+    "description": "Giai đoạn đóng gói",
+    "stageName": "Packaging",
+    "orderIndex": 5,
+    "methodId": 1,
+    "isRequired": true,
+    "isDeleted": false
+  },
+  {
+    "stageId": 6,
+    "stageCode": "STAGE-006",
+    "description": "Giai đoạn phơi nắng",
+    "stageName": "Sun Drying",
+    "orderIndex": 1,
+    "methodId": 2,
+    "isRequired": true,
+    "isDeleted": false
+  },
+  {
+    "stageId": 7,
+    "stageCode": "STAGE-007",
+    "description": "Giai đoạn resting",
+    "stageName": "Resting",
+    "orderIndex": 2,
+    "methodId": 2,
+    "isRequired": true,
+    "isDeleted": false
+  },
+  {
+    "stageId": 8,
+    "stageCode": "STAGE-008",
+    "description": "Giai đoạn bóc vỏ (Natural)",
+    "stageName": "Hulling",
+    "orderIndex": 3,
+    "methodId": 2,
+    "isRequired": true,
+    "isDeleted": false
+  },
+  {
+    "stageId": 9,
+    "stageCode": "STAGE-009",
+    "description": "Giai đoạn phân loại (Natural)",
+    "stageName": "Grading",
+    "orderIndex": 4,
+    "methodId": 2,
+    "isRequired": true,
+    "isDeleted": false
+  },
+  {
+    "stageId": 10,
+    "stageCode": "STAGE-010",
+    "description": "Giai đoạn pulping",
+    "stageName": "Pulping",
+    "orderIndex": 1,
+    "methodId": 3,
+    "isRequired": true,
+    "isDeleted": false
+  },
+  {
+    "stageId": 11,
+    "stageCode": "STAGE-011",
+    "description": "Giai đoạn fermentation",
+    "stageName": "Fermentation",
+    "orderIndex": 2,
+    "methodId": 3,
+    "isRequired": true,
+    "isDeleted": false
+  },
+  {
+    "stageId": 12,
+    "stageCode": "STAGE-012",
+    "description": "Giai đoạn drying (Semi-Washed)",
+    "stageName": "Drying",
+    "orderIndex": 3,
+    "methodId": 3,
+    "isRequired": true,
+    "isDeleted": false
+  },
+  {
+    "stageId": 13,
+    "stageCode": "STAGE-013",
+    "description": "Giai đoạn milling (Semi-Washed)",
+    "stageName": "Milling",
+    "orderIndex": 4,
+    "methodId": 3,
+    "isRequired": true,
+    "isDeleted": false
+  }
+]

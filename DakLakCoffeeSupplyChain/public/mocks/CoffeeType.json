@@ -1,0 +1,67 @@
+[
+  {
+    "coffeeTypeId": "ct-001",
+    "typeCode": "ARABICA",
+    "typeName": "Arabica",
+    "botanicalName": "Coffea arabica",
+    "description": "Premium coffee species with complex flavors, lower caffeine content, and smooth taste. Makes up about 60-70% of global coffee production.",
+    "typicalRegion": "Dak Lak, Vietnam",
+    "specialtyLevel": "Premium",
+    "status": 1,
+    "coffeeTypeCategory": "Specialty Coffee",
+    "coffeeTypeParentId": null,
+    "coffeeTypeParentName": null
+  },
+  {
+    "coffeeTypeId": "ct-002",
+    "typeCode": "ROBUSTA",
+    "typeName": "Robusta",
+    "botanicalName": "Coffea canephora",
+    "description": "Strong, bold coffee with higher caffeine content and earthy notes. More resistant to pests and diseases. Used primarily in espresso blends and instant coffee.",
+    "typicalRegion": "Central Highlands, Vietnam",
+    "specialtyLevel": "Commercial",
+    "status": 1,
+    "coffeeTypeCategory": "Commercial Coffee",
+    "coffeeTypeParentId": null,
+    "coffeeTypeParentName": null
+  },
+  {
+    "coffeeTypeId": "ct-003",
+    "typeCode": "CATIMOR",
+    "typeName": "Catimor",
+    "botanicalName": "Coffea arabica x canephora hybrid",
+    "description": "Hybrid variety combining Arabica and Robusta. Resistant to pests and leaf rust, but with some quality compromise compared to pure Arabica.",
+    "typicalRegion": "Dak Lak, Vietnam",
+    "specialtyLevel": "Semi-Premium",
+    "status": 1,
+    "coffeeTypeCategory": "Hybrid",
+    "coffeeTypeParentId": null,
+    "coffeeTypeParentName": null
+  },
+  {
+    "coffeeTypeId": "ct-004",
+    "typeCode": "TYPICA",
+    "typeName": "Typica",
+    "botanicalName": "Coffea arabica var. Typica",
+    "description": "One of the oldest cultivated Arabica varieties, known for excellent cup quality with complex flavors and balanced acidity.",
+    "typicalRegion": "Latin America, East Africa",
+    "specialtyLevel": "Premium",
+    "status": 1,
+    "coffeeTypeCategory": "Specialty Coffee",
+    "coffeeTypeParentId": null,
+    "coffeeTypeParentName": null
+  },
+  {
+    "coffeeTypeId": "ct-005",
+    "typeCode": "BOURBON",
+    "typeName": "Bourbon",
+    "botanicalName": "Coffea arabica var. Bourbon",
+    "description": "Classic Arabica variety with sweet, full-bodied character. Originally from Réunion Island, now grown worldwide for premium coffees.",
+    "typicalRegion": "Latin America, Africa",
+    "specialtyLevel": "Premium",
+    "status": 1,
+    "coffeeTypeCategory": "Specialty Coffee",
+    "coffeeTypeParentId": null,
+    "coffeeTypeParentName": null
+  }
+]

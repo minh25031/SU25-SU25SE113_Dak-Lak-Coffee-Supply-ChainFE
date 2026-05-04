@@ -1,0 +1,140 @@
+[
+  {
+    "deliveryBatchId": "db-001",
+    "deliveryBatchCode": "DLB-001",
+    "contractId": "con-001",
+    "contractNumber": "HD-001/2025",
+    "deliveryRound": 1,
+    "expectedDeliveryDate": "2025-03-15",
+    "totalPlannedQuantity": 150,
+    "status": "Completed",
+    "createdAt": "2025-02-01T08:00:00Z",
+    "updatedAt": "2025-03-20T16:30:00Z",
+    "contractDeliveryItems": [
+      {
+        "deliveryItemId": "dli-001",
+        "deliveryItemCode": "DLI-001",
+        "contractItemId": "cti-001",
+        "coffeeTypeName": "Arabica",
+        "plannedQuantity": 150,
+        "fulfilledQuantity": 150,
+        "note": "Giao hàng đúng tiến độ"
+      }
+    ]
+  },
+  {
+    "deliveryBatchId": "db-002",
+    "deliveryBatchCode": "DLB-002",
+    "contractId": "con-001",
+    "contractNumber": "HD-001/2025",
+    "deliveryRound": 2,
+    "expectedDeliveryDate": "2025-05-15",
+    "totalPlannedQuantity": 175,
+    "status": "InProgress",
+    "createdAt": "2025-04-01T08:00:00Z",
+    "updatedAt": "2025-05-05T09:00:00Z",
+    "contractDeliveryItems": [
+      {
+        "deliveryItemId": "dli-002",
+        "deliveryItemCode": "DLI-002",
+        "contractItemId": "cti-001",
+        "coffeeTypeName": "Arabica",
+        "plannedQuantity": 175,
+        "fulfilledQuantity": 120,
+        "note": "Đang trong quá trình giao hàng"
+      }
+    ]
+  },
+  {
+    "deliveryBatchId": "db-003",
+    "deliveryBatchCode": "DLB-003",
+    "contractId": "con-001",
+    "contractNumber": "HD-001/2025",
+    "deliveryRound": 3,
+    "expectedDeliveryDate": "2025-07-15",
+    "totalPlannedQuantity": 175,
+    "status": "Planned",
+    "createdAt": "2025-04-15T08:00:00Z",
+    "updatedAt": "2025-04-15T08:00:00Z",
+    "contractDeliveryItems": [
+      {
+        "deliveryItemId": "dli-003",
+        "deliveryItemCode": "DLI-003",
+        "contractItemId": "cti-001",
+        "coffeeTypeName": "Arabica",
+        "plannedQuantity": 175,
+        "fulfilledQuantity": null,
+        "note": "Lô giao hàng thứ 3"
+      }
+    ]
+  },
+  {
+    "deliveryBatchId": "db-004",
+    "deliveryBatchCode": "DLB-004",
+    "contractId": "con-002",
+    "contractNumber": "HD-002/2025",
+    "deliveryRound": 1,
+    "expectedDeliveryDate": "2025-02-28",
+    "totalPlannedQuantity": 300,
+    "status": "Completed",
+    "createdAt": "2025-02-01T07:00:00Z",
+    "updatedAt": "2025-03-05T15:00:00Z",
+    "contractDeliveryItems": [
+      {
+        "deliveryItemId": "dli-004",
+        "deliveryItemCode": "DLI-004",
+        "contractItemId": "cti-002",
+        "coffeeTypeName": "Robusta",
+        "plannedQuantity": 300,
+        "fulfilledQuantity": 300,
+        "note": "Giao hàng đầu tiên, chất lượng tốt"
+      }
+    ]
+  },
+  {
+    "deliveryBatchId": "db-005",
+    "deliveryBatchCode": "DLB-005",
+    "contractId": "con-002",
+    "contractNumber": "HD-002/2025",
+    "deliveryRound": 2,
+    "expectedDeliveryDate": "2025-05-28",
+    "totalPlannedQuantity": 300,
+    "status": "InProgress",
+    "createdAt": "2025-05-01T07:00:00Z",
+    "updatedAt": "2025-05-25T10:00:00Z",
+    "contractDeliveryItems": [
+      {
+        "deliveryItemId": "dli-005",
+        "deliveryItemCode": "DLI-005",
+        "contractItemId": "cti-002",
+        "coffeeTypeName": "Robusta",
+        "plannedQuantity": 300,
+        "fulfilledQuantity": 180,
+        "note": "Lô 2 đang trong kho chờ kiểm hàng"
+      }
+    ]
+  },
+  {
+    "deliveryBatchId": "db-006",
+    "deliveryBatchCode": "DLB-006",
+    "contractId": "con-003",
+    "contractNumber": "HD-003/2025",
+    "deliveryRound": 1,
+    "expectedDeliveryDate": "2025-07-15",
+    "totalPlannedQuantity": 100,
+    "status": "Planned",
+    "createdAt": "2025-06-01T08:00:00Z",
+    "updatedAt": "2025-06-01T08:00:00Z",
+    "contractDeliveryItems": [
+      {
+        "deliveryItemId": "dli-006",
+        "deliveryItemCode": "DLI-006",
+        "contractItemId": "cti-003",
+        "coffeeTypeName": "Arabica",
+        "plannedQuantity": 100,
+        "fulfilledQuantity": null,
+        "note": "Phụ lục HD-001 - Đợt 1"
+      }
+    ]
+  }
+]
