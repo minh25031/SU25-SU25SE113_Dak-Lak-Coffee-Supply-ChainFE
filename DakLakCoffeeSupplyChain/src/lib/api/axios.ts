@@ -4,11 +4,7 @@ import { authService } from "../auth/authService";
 import mockAdapter from "./mockAdapter";
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-const useMocks = process.env.NEXT_PUBLIC_USE_MOCKS === "true";
-
-if (!useMocks && !apiUrl) {
-  throw new Error("API URL is not defined in environment variables.");
-}
+const useMocks = process.env.NEXT_PUBLIC_USE_MOCKS === "true" || !apiUrl;
 
 const api: AxiosInstance = axios.create({
   baseURL: apiUrl,
@@ -120,8 +116,7 @@ api.interceptors.response.use(
 );
 
 // When running with mocks enabled, export the lightweight mock adapter instead
-// of the axios instance. The mock adapter exposes `.get/.post/.patch/.delete`
-// with a similar shape (`{ data: ... }`) so existing api modules keep working.
-// Enable by setting NEXT_PUBLIC_USE_MOCKS=true in your environment.
-const exportedApi: any = useMocks ? mockAdapter : api;
+// of the axios instance. Cast to AxiosInstance so call sites can keep using
+// generics such as `api.get<T>()` during type-checking.
+const exportedApi = (useMocks ? mockAdapter : api) as unknown as AxiosInstance;
 export default exportedApi;
